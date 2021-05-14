@@ -14,6 +14,8 @@ public class SimpleCalculator {
         return this.secondNumber;
     }
     public void setFirstNumber( double f_Number) {
+        /* 'this' sets the value passed through 'f_number' to the variable: 'firstNumber'
+        in this class */
         this.firstNumber = f_Number;
     }
     public void setSecondNumber(double s_Number) {
